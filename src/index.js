@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Users from './pages/users'
 import About from './pages/about'
 import elements from './pages/elements'
+import contact from './pages/contactForm'
 const routing = (
   <Router>
     <div>
@@ -14,6 +15,7 @@ const routing = (
       <Route path="/about" component={About} />
       <Route path="/user" component={Users} />
       <Route path="/element" component={elements}></Route>
+      <Route path="/contact" component={contact}></Route>
     </div>
   </Router>
 )

@@ -74,7 +74,11 @@ class Header extends React.Component {
                                                     User
                                                 </NavLink>
                                             </li>
-
+                                            <li>
+                                                <NavLink to="/contact" exact activeStyle={{ color: "yellow" }}>
+                                                    contact
+                                                </NavLink>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
